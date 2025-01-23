@@ -17,5 +17,6 @@ spec:
         app: my-app
     spec:
       containers:
-      - image: nginx:latest
+      - name: my-app
+        image: nginx:latest
         
