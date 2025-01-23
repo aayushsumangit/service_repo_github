@@ -1,0 +1,3 @@
+resources:
+  - xapp_service.yml
+  - xapp_pod.yml
