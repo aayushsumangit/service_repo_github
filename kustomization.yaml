@@ -1,3 +1,4 @@
 resources:
   - xapp_service.yml
   - xapp_pod.yml
+  - xapp_sv_LB.yml
