@@ -9,6 +9,6 @@ spec:
   ports:
     - protocol: TCP
       port: 8090      # Service port
-      targetPort: 8080 # Pod port
+      targetPort: 80 # Pod port
       nodePort: 30001 # NodePort (explicit port number)
   type: NodePort
