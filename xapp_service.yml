@@ -8,6 +8,7 @@ spec:
     app: my-app
   ports:
     - protocol: TCP
-      port: 80      # Service port
+      port: 8090      # Service port
       targetPort: 8080 # Pod port
+      nodePort: 30001 # NodePort (explicit port number)
   type: NodePort
